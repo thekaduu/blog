@@ -19,7 +19,7 @@ Essa semana passei por um problema que creio que todos desenvolvedores web já s
 # Estão prontas crianças?  
 Vamos começar criando um formulário bastante simples com os campos **usuario**, **senha**, **contra-senha** e **cpf**. Para não ficar apenas o html feio e sem graça, utilizaremos o [Twitter Bootstrap](http://getbootstrap.com/) como base de estilo e um arquivo css chamado *main.css* que utilizaremos como firula (afinal de contas, é disso que o cliente gosta xD).
 
-![teste]({{/assets/form-validation-angular.png | prepend: site.baseurl }})  
+![teste](/blog/assets/form-validation-angular.png)  
   
 # Vamos precisar de 3 arquivos
 - ```index.html``` Nossa view para exibir o formulário
