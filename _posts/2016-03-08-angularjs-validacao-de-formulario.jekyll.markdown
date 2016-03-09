@@ -3,7 +3,7 @@ layout: post
 title:  "Validando Formulários com AngularJS"
 date:   2016-03-08 21:27:36 -0300
 categories: javascript angularjs
-img: /assets/form-validation-angular.png
+img: assets/form-validation-angular.png
 ---
 Essa semana passei por um problema que creio que todos desenvolvedores web já se depararam ( e se você chegou até aqui é porque deve esta passando por ele). Um problema que a princípio é bastante simples, mas dependendo do projeto pode se chato para implementar.  
   
