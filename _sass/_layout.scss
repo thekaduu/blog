@@ -1,6 +1,14 @@
 /**
  * Site header
  */
+ @import "_bootstrap";
+ $blue-text: rgb(45, 160, 195);
+ .body{
+    font-family: sans-serif;
+ }
+ .row{
+    margin: 0px !important;
+ }
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
@@ -8,6 +16,8 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    box-shadow: 0px 0px 10px -1px #424242;
+    padding: 0px 30px;
 }
 
 .site-title {
@@ -23,7 +33,87 @@
         color: $grey-color-dark;
     }
 }
+.post-title-show{
+    color: $blue-text;
+}
+.post-img{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
 
+}
+.post-item{
+    border: 1px solid #E2E0E0;
+    border-radius: 10px;
+    &:hover{
+        box-shadow: 1px 1px 2px 1px #EFEFEF;
+    }
+}
+
+.tags{
+    min-height: 40px;
+}
+footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;   
+    background: #005f97;
+    padding: 50px;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    a{
+        color: white;
+        &:hover{
+            color: white;
+        }
+        &:active{
+            color: white;
+        }
+        &:visited{
+            color: white;
+        }
+    }
+
+}
+.post-title-show{
+    &:hover{
+        text-decoration: none;
+        color: blue-text
+    }
+    &:visited{
+        text-decoration: none;
+        color: blue-text
+    }
+    &:active{
+        text-decoration: none;
+        color: blue-text
+    }
+}
+.tag{
+    border-radius: 6px;
+    border: 1px solid gray;
+    padding: 7px;
+    &:hover{
+        text-decoration: none;
+        color: blue-text
+    }
+    &:visited{
+        text-decoration: none;
+        color: blue-text
+    }
+    &:active{
+        text-decoration: none;
+        color: blue-text
+    }
+}
+
+.post-description{
+    font-family: sans-serif;
+    color: #576366
+}
 .site-nav {
     float: right;
     line-height: 56px;

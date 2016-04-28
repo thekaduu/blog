@@ -1,0 +1,25 @@
+{
+  "name": "kodando",
+  "homepage": "https://github.com/thekaduu/blog",
+  "authors": [
+    "Carlos Eduardo Lima Braz <carloseduardolbraz@gmail.com>"
+  ],
+  "description": "Blog sobre frontend e Backend do thekaduu",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "blog",
+    "frontend",
+    "backend",
+    "jekyll"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
